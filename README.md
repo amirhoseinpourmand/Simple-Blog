@@ -161,5 +161,3 @@ This project is licensed under the **ISC License**.
 Amirhosein Pourmand
 
 ---
-
-This project is a simple demonstration of building a blog application using Node.js, Express, and MongoDB while applying MVC principles.
