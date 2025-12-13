@@ -133,9 +133,8 @@ npm install
 
 Update the MongoDB connection string inside `app.js`:
 
-```
 Create a `.env` file and add your MongoDB Atlas connection string:
-```
+
 
 5. Run the application:
 
