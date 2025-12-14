@@ -11,24 +11,15 @@ body {
     border-radius: 14px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.06);
 }
-
-html,
-body {
+html, body {
     min-height: 100%;
 }
-
-p,
-h1,
-h2,
-h3,
-a,
-ul {
+p, h1, h2, h3, a, ul {
     margin: 0;
     padding: 0;
     text-decoration: none;
     color: #222;
 }
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -40,7 +31,6 @@ nav {
     background: #fafafa;
     padding: 20px 25px;
 }
-
 nav h1 {
     font-size: 2.4em;
     font-weight: 700;
@@ -48,49 +38,38 @@ nav h1 {
     letter-spacing: -1px;
     margin-bottom: 5px;
 }
-
-nav p,
-nav a {
+nav p, nav a {
     color: #666;
     font-weight: 400;
     transition: 0.2s ease;
 }
-
 nav a:hover {
     color: crimson;
 }
-
 nav ul {
     display: flex;
     gap: 25px;
     align-items: center;
 }
-
 nav li {
     list-style-type: none;
 }
-
-
 footer {
     color: #777;
     text-align: center;
     margin: 80px auto 20px;
     margin-top: 40px;
 }
-
 h2 {
     margin-bottom: 40px;
 }
-
 h3 {
     text-transform: capitalize;
     margin-bottom: 7px;
 }
-
 .content {
     margin-left: 20px;
 }
-
 .blogs a {
     position: relative;
     display: block;
@@ -102,7 +81,6 @@ h3 {
     text-decoration: none;
     color: #222;
 }
-
 .blogs a::before {
     content: "";
     position: absolute;
@@ -114,46 +92,33 @@ h3 {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
-
 .blogs a h3 {
     text-decoration: none;
     transition: 0.3s ease;
 }
-
 .blogs a:hover h3 {
     background: linear-gradient(180deg, #ff8a00, #e52e71);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
-
 .details {
     position: relative;
 }
-
 .delete {
     position: absolute;
     top: 0;
     right: 0;
     padding: 6px 10px;
     background: #e63946;
-    /* پس‌زمینه اولیه */
     color: #fff;
-    /* متن سفید */
     border-radius: 6px;
-    /* گوشه‌های کمی گرد (دلخواه) */
     box-shadow: none;
     transition: background 0.2s ease;
 }
-
 .delete:hover {
     cursor: pointer;
     background: crimson;
-    /* رنگ تیره‌تر در حالت hover */
 }
-
-
-
 .create-blog {
     max-width: 900px;
     width: 100%;
@@ -161,14 +126,10 @@ h3 {
     padding: 0;
     box-sizing: border-box;
 }
-
-.create-blog input,
-.create-blog textarea {
+.create-blog input, .create-blog textarea {
     display: block;
     width: 95%;
-    /* کمی کمتر از 100% */
     margin: 15px auto;
-    /* وسط‌چین با فاصله مناسب */
     padding: 14px 16px;
     font-size: 1.2em;
     font-family: 'Noto Serif', serif;
@@ -177,19 +138,16 @@ h3 {
     background: #fff;
     transition: 0.2s ease;
 }
-
 .create-blog input:focus,
 .create-blog textarea:focus {
     outline: none;
     border-color: crimson;
     box-shadow: 0 0 5px rgba(255, 0, 0, 0.2);
 }
-
 textarea {
     height: 220px;
     resize: vertical;
 }
-
 .create-blog label {
     display: block;
     margin-top: 20px;
@@ -197,7 +155,6 @@ textarea {
     font-size: 1em;
     color: #222;
 }
-
 .create-blog button {
     display: block;
     margin: 40px auto 20px auto;
@@ -211,7 +168,6 @@ textarea {
     cursor: pointer;
     transition: 0.2s ease;
 }
-
 .create-blog button:hover {
     background: #e52e71;
 }
