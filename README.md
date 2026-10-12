@@ -4,7 +4,6 @@ Simple Blog is a minimal personal blog application built with **Node.js**, **Exp
 
 This project is intended for learning and practice purposes and demonstrates a clean and understandable implementation of a CRUD-based blog system.
 
----
 
 ## Project Screenshots
 
@@ -25,7 +24,6 @@ This project is intended for learning and practice purposes and demonstrates a c
 
 ![About Page](screenshots/about.png)
 
----
 
 ## Features
 
@@ -36,7 +34,6 @@ This project is intended for learning and practice purposes and demonstrates a c
 * About page
 * Custom 404 page
 
----
 
 ## Project Structure
 
@@ -47,7 +44,6 @@ The application follows the **MVC (Model–View–Controller)** pattern to keep 
 * **Controllers**: Handle application logic and communicate between models and views
 * **Routes**: Define application endpoints and map them to controllers
 
----
 
 ## Technologies Used
 
@@ -59,7 +55,6 @@ The application follows the **MVC (Model–View–Controller)** pattern to keep 
 * CSS
 * JavaScript
 
----
 
 ## Server-Side Rendering with EJS
 
@@ -76,7 +71,6 @@ This approach is known as **server-side rendering**.
 
 More information: [https://ejs.co](https://ejs.co)
 
----
 
 ## Database
 
@@ -91,7 +85,6 @@ The blog schema includes:
 
 Blog posts are sorted by creation date, showing the newest posts first.
 
----
 
 ## Routes Overview
 
@@ -100,7 +93,6 @@ Blog posts are sorted by creation date, showing the newest posts first.
 * `/blogs/:id` – View a single blog post
 * `/about` – About page
 
----
 
 ## Setup and Installation
 
@@ -154,10 +146,7 @@ http://localhost:3000
 
 This project is licensed under the **ISC License**.
 
----
 
 ## Author
 
 Amirhosein Pourmand
-
----
