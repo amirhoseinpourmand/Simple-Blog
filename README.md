@@ -4,9 +4,7 @@ Simple Blog is a minimal personal blog application built with **Node.js**, **Exp
 
 This project is intended for learning and practice purposes and demonstrates a clean and understandable implementation of a CRUD-based blog system.
 
-
-## Project Screenshots
-
+&nbsp;
 
 ### Blog List Page
 
@@ -24,6 +22,7 @@ This project is intended for learning and practice purposes and demonstrates a c
 
 ![About Page](screenshots/about.png)
 
+&nbsp;
 
 ## Features
 
